@@ -30,7 +30,7 @@ body {
 }
 
 .title {
-    color: #f0ccf0;
+    color: #f9e2af;
     max-width: 950px;
     margin: auto;
     padding: 10px;
@@ -70,5 +70,5 @@ body {
 
 .projectInfo {
     padding: 10px;
-    color: #f9e2af;
+    color: #f0ccf0;;
 }
