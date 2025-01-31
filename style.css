@@ -1,0 +1,52 @@
+.page {
+    background-color: #130220; 
+    font-family: monospace;
+}
+
+.infoBox {
+    width: 200px;
+    height: 100px;
+    background-color: #281535;
+    border-color: slategray;
+    border-style: groove;
+    color:white;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.headerBar {
+    color:azure; 
+    border-color: slategray; 
+    border-style: groove; 
+    border-radius: 5px; 
+    border-width: 5px; 
+    background-color: #281535;
+    width: 900px;
+    height: 110px;
+    padding: 5px;
+}
+
+.title {
+    color: azure;
+    max-width: 950px;
+}
+
+.code {
+    color: green; 
+    border-style: dotted; 
+    border-color: grey; 
+    background-color: rgb(19, 17, 17); 
+    width: 700px;
+}
+
+.pageLink {
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 6px;
+    color: blueviolet;
+    background-color: #201e1e;
+    border-color: slategrey;
+    padding: 2px;
+    text-decoration: none;
+}
