@@ -4,26 +4,27 @@ body {
 }
 
 .infoBox {
-    width: 400px;
+    width: 450px;
     height: fit-content;
     background-color: #211827;
-    border-color: slategray;
+    border-color: #585b70;
     border-style: groove;
     color: #f5e0dc;
     padding: 5px;
     box-sizing: border-box;
     border-radius: 5px;
+    margin: auto;
 }
 
 .headerBar {
     color:#f5e0dc; 
-    border-color: slategray; 
+    border-color: #585b70; 
     border-style: groove; 
     border-radius: 5px; 
     border-width: 5px; 
     background-color: #211827;
-    width: 900px;
-    height: 110px;
+    width: fit-content;
+    height: fit-content;
     padding: 5px;
     margin: auto;
 }
