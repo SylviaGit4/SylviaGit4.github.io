@@ -1,11 +1,11 @@
-.page {
+body {
     background-color: #130220; 
     font-family: monospace;
 }
 
 .infoBox {
-    width: 200px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
     background-color: #281535;
     border-color: slategray;
     border-style: groove;
@@ -25,11 +25,15 @@
     width: 900px;
     height: 110px;
     padding: 5px;
+    margin: auto;
 }
 
 .title {
     color: azure;
     max-width: 950px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
 }
 
 .code {
@@ -38,15 +42,34 @@
     border-color: grey; 
     background-color: rgb(19, 17, 17); 
     width: 700px;
+    margin: auto;
 }
 
 .pageLink {
     border-style: groove;
     border-width: 2px;
     border-radius: 6px;
-    color: blueviolet;
+    color: #8a2be2;
     background-color: #201e1e;
-    border-color: slategrey;
+    border-color: #708090;
     padding: 2px;
     text-decoration: none;
+    cursor: pointer;
+}
+
+.pageLink{
+    color: #8a2be2;
+    background-color: #201e1e;
+    border-color: #708090;
+}
+
+.pageLink:hover{
+    color: #380d61;
+    background-color: #5a5555;
+    border-color: #86a4c2;
+}
+
+.projectInfo {
+    padding: 10px;
+    color: beige;
 }
