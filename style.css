@@ -1,27 +1,27 @@
 body {
-    background-color: #130220; 
+    background-color: #1e1e2e; 
     font-family: monospace;
 }
 
 .infoBox {
     width: 300px;
     height: 150px;
-    background-color: #281535;
+    background-color: #211827;
     border-color: slategray;
     border-style: groove;
-    color:white;
+    color: #f5e0dc;
     padding: 5px;
     box-sizing: border-box;
     border-radius: 5px;
 }
 
 .headerBar {
-    color:azure; 
+    color:#f5e0dc; 
     border-color: slategray; 
     border-style: groove; 
     border-radius: 5px; 
     border-width: 5px; 
-    background-color: #281535;
+    background-color: #211827;
     width: 900px;
     height: 110px;
     padding: 5px;
@@ -29,7 +29,7 @@ body {
 }
 
 .title {
-    color: azure;
+    color: #f5e0dc;
     max-width: 950px;
     margin: auto;
     padding: 10px;
@@ -49,9 +49,6 @@ body {
     border-style: groove;
     border-width: 2px;
     border-radius: 6px;
-    color: #8a2be2;
-    background-color: #201e1e;
-    border-color: #708090;
     padding: 2px;
     text-decoration: none;
     cursor: pointer;
@@ -59,17 +56,17 @@ body {
 
 .pageLink{
     color: #8a2be2;
-    background-color: #201e1e;
+    background-color: #1e1e2e;
     border-color: #708090;
 }
 
 .pageLink:hover{
-    color: #380d61;
-    background-color: #5a5555;
+    color: #ae63f3;
+    background-color: #37263b;
     border-color: #86a4c2;
 }
 
 .projectInfo {
     padding: 10px;
-    color: beige;
+    color: #f9e2af;
 }
