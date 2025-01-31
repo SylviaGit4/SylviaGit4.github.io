@@ -18,6 +18,7 @@
     background-color: #151535;
 }
 
-.title {
+.title{
     color: azure;
+    max-width: 950px;
 }
