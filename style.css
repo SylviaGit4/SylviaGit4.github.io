@@ -67,6 +67,7 @@ body {
     color: #ae63f3;
     background-color: #37263b;
     border-color: #86a4c2;
+    border-width: 3px;
 }
 
 .projectInfo {
