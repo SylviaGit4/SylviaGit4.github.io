@@ -65,8 +65,7 @@ body {
     border-style: groove;
     border-width: 2px;
     border-radius: 6px;
-    width:fit-content;
-    height: fit-content;
+    width: fit-content;
     padding: 2px;
     text-decoration: none;
     cursor: pointer;
