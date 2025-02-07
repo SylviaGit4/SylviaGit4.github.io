@@ -1,3 +1,13 @@
+html {
+    /* Mobile */
+
+
+    /* Desktop */
+    @media (min-width: 1280px) {
+
+    }
+}
+
 body {
     background-color: #1e1e2e; 
     font-family: monospace;
@@ -24,7 +34,7 @@ body {
     border-radius: 5px; 
     border-width: 5px; 
     background-color: #211827;
-    width: 900;
+    max-width: 900px;
     height: fit-content;
     padding: 5px;
     margin: auto;
