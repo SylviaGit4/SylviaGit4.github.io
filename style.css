@@ -50,6 +50,14 @@ body {
     text-align: center;
 }
 
+.text {
+    color: #f9e2af;
+    max-width: 950px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
 .code {
     color: #a6e3a1; 
     border-style: dotted; 
@@ -87,6 +95,7 @@ body {
 .projectInfo {
     padding: 10px;
     color: #f0ccf0;;
+    text-align: center;
 }
 
 .buttonList {
