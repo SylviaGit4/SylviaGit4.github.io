@@ -1,1 +1,1 @@
-This is the deployed site for my web portfolio, containing my projects and personal research.
+Experimental branch of my portfolio. For testing stuff.
