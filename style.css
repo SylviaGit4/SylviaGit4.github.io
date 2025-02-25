@@ -76,7 +76,7 @@ body {
 
 .pageLink:hover{
     color: #ae63f3;
-    background-color: #37263b;
+    background-image: url("/assets/bg.jpg");
     border-color: #86a4c2;
     border-width: 1px;
 }
