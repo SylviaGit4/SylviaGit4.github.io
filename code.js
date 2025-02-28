@@ -1,4 +1,4 @@
-console.log(":3"); // logging (printing) a message to the console //
+console.log(":3 Console output tests."); // logging (printing) a message to the console //
 
 // VARIABLES //
 let number = 17; // declaring a variable //
@@ -22,11 +22,11 @@ let opinion = prompt("Do you like JavaScript?", "Yes"); // shows a popup with a 
 console.log(opinion); // logging the result of the prompt() function //
 
 // ARRAYS AND LOOPS //
-const drinks = ["Tea", "Coffee", "Water"]; // declaring an array //
+const drinks = ["Tea", "Coffee", "Soda", "Water"]; // declaring an array //
 
 let drinkLength = drinks.length; // calculating the length of the array //
 
-console.log(drinks.toString); // converts and logs array to a single string //
+console.log(drinks.toString()); // converts and logs array to a single string //
 
 for (let n of drinks) {
   console.log(n); // logging each element of the array //
@@ -39,8 +39,20 @@ let first = drinks.shift(); // removes and logs the first element of the array /
 console.log(first); // logging the first element of the array after removing it //
 console.log(last); // logging the last element of the array after removing it //
 
-for (let i = 0; i < 5; i++); // length based loop
-{
+for (let i = 0; i < 5; i++) { // length based loop//
   // logging numbers from 0 to 4 //
-  console.log(i);
+  console.log("Output:", i);
 }
+
+// FUNCTIONS //
+function printDrinks(drinks) {
+  // declaring a function //
+  console.log(drinks);
+}
+
+drinks.forEach(printDrinks); // logging each element of the array using forEach() //
+
+drinks.forEach((n) =>
+  // declaring a function using arrow (lambda) function //
+  {console.log(n);}
+);
