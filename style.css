@@ -83,7 +83,7 @@ body {
 
 .projectInfo {
     padding: 3px;
-    color: #f0ccf0;;
+    color: #f0ccf0;
     text-align: center;
 }
 
@@ -92,4 +92,59 @@ body {
     flex-direction: row;
     gap: 0.5rem;
     justify-content: center;
+}
+
+.buttonAlign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.openButton {
+    background-image: url("/assets/button_background.jpeg");
+    color: #f0ccf0;
+    border-color: #585b70;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 0.3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.openButton:hover{
+    color: #f9e2af;
+    border-color: #86a4c2;
+    border-width: 2px;
+}
+
+.closeButton {
+    background-image: url("/assets/button_background.jpeg");
+    color: #f9b4af;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #585b70;
+    padding: 0.3rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.closeButton:hover{
+    color: #f19292;
+    border-color: #86a4c2;
+    border-width: 2px;
+}
+
+.popOut {
+    max-width: 650px;
+    min-width: 280px;
+    height: fit-content;
+    background-color: #211827;
+    border-color: #585b70;
+    border-style: groove;
+    color: #f0ccf0;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }

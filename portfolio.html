@@ -20,26 +20,50 @@
         </h1>
     </header>
     <h2 class="title">
-        List of pages for projects:
+        Below are my projects. (Background Images TBA)
     </h2>
 
-    <div class="text">
-        <a class="pageLink" href="/portfolio_pages/cypher.html"> Viginere Cypher</a> - A basic cypher encoder and decoder.
-    </div>
-    <div class="text">
-        <a class="pageLink" href="/portfolio_pages/godot.html">Space Game</a> - A simple game made in the Godot game engine.
-    </div>
-    <div class="text">
-        <a class="pageLink" href="/portfolio_pages/frontend.html">Frontend Mentor</a> - Five of the challenges from Frontend Mentor.
-    </div>
-
     <div class="buttonList">
-        <button class="openButton">OPEN</button>
+        <button class="openButton" id="openOne">Viginere Cypher</button>
+        <button class="openButton" id="openTwo">Frontend Mentor</button>
+        <button class="openButton" id="openThree">OPEN</button>
     </div>
     
-    <dialog class="popOut">
+
+    <dialog class="popOut" id="popOutOne">
         <div class="buttonAlign">
-            <button class="closeButton">CLOSE</button>
+            <button class="closeButton" id="closeOne">CLOSE</button>
+        </div>
+
+        <h2 class="title">
+            This project was a small experiment into the feasibility to implement 
+            an algorithm to encrypt and decrypt using the viginere cypher.
+        </h2>
+
+        <div class="projectInfo">
+            Github Repo: <a class="pageLink" href="https://github.com/SylviaGit4/ViginereCypher">ViginereCypher</a>
+        </div>
+    </dialog>
+
+
+    <dialog class="popOut" id="popOutTwo">
+        <div class="buttonAlign">
+            <button class="closeButton" id="closeTwo">CLOSE</button>
+        </div>
+
+        <h2 class="title">
+            As part of the project surrounding the web portfolio, I have completed five of the HTML challenges for Frontend Mentor. 
+            Below are links to the completed challenges.
+        </h2>
+
+        <div class="projectInfo">
+            QR Code Challenge: <a class="pageLink" href="https://www.frontendmentor.io/solutions/qr-code-using-html-9sim0q__Xu">Frontend Mentor Site</a>
+        </div>
+    </dialog>
+
+    <dialog class="popOut" id="popOutThree">
+        <div class="buttonAlign">
+            <button class="closeButton" id="closeThree">CLOSE</button>
         </div>
         <h2 class="text">Appearing Text</h2>
     </dialog>
