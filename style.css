@@ -25,7 +25,6 @@ body {
     box-sizing: border-box;
     border-radius: 5px;
     margin: auto;
-    
 }
 
 .headerBar {
@@ -92,4 +91,41 @@ body {
     flex-direction: row;
     gap: 0.5rem;
     justify-content: center;
+}
+
+.buttonAlign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.openButton {
+    background-image: url("/assets/button_background.jpeg");
+    color: #f9e2af;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #585b70;
+}
+
+.closeButton {
+    background-image: url("/assets/button_background.jpeg");
+    color: #f9b4af;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #585b70;
+}
+
+.popOut {
+    max-width: 650px;
+    min-width: 280px;
+    height: fit-content;
+    background-color: #211827;
+    border-color: #585b70;
+    border-style: groove;
+    color: #f0ccf0;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
