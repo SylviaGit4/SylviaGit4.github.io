@@ -139,6 +139,7 @@ body {
 .popOut {
     max-width: 650px;
     min-width: 280px;
+    min-height: 300px;
     height: fit-content;
     background-color: #211827;
     border-color: #585b70;
